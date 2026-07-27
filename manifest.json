@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.comic-edge",
+  "name": "Comic Edge",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Posterised colour with inked outlines traced from the footage \u2014 a clean comic/cel-shaded look with no model required.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/comic-edge.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "stylize",
+        "comic",
+        "cel-shade",
+        "posterize",
+        "outline",
+        "one-click"
+      ]
+    }
+  ]
+}
